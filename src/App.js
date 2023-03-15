@@ -31,6 +31,7 @@ function App() {
       setName('');
       setEditID(null);
       setIsEditing(false)
+      showAlert(true, "value changed", "success")
     }
     else {
       showAlert(true, "item add to the list", "success")
